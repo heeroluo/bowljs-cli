@@ -1,0 +1,40 @@
+{
+	"name": "bowljs-cli",
+	"version": "1.0.0",
+	"description": "Command line tools for Bowljs",
+	"author": {
+		"name": "Heero Luo",
+		"email": "heeroluo@126.com",
+		"url": "http://heeroluo.net/"
+	},
+	"bin" : {
+		"bowljs": "./bin/bowljs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/heeroluo/bowljs-cli"
+	},
+	"keywords": [
+		"bowljs",
+		"jraiser",
+		"modular",
+		"commonjs",
+		"uglifyjs",
+		"build",
+		"compressor",
+		"compiler",
+		"minifier"
+	],
+	"dependencies": {
+		"uglify-js": "~2.6.2",
+		"minimist": "~1.2.0",
+		"cli-color": "~1.1.0",
+		"ejs": "~2.4.2",
+		"ncp": "~2.0.0",
+		"html-minifier": "~2.1.5"
+	},
+	"license": "LGPL-3.0",
+	"engines": {
+		"node": ">=4.0.0"
+	}
+}

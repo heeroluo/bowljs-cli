@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+/*!
+ * Command line tools for Bowljs
+ * The "bowljs" command (2016-06-20T10:58:02+0800)
+ * http://jraiser.org/ | Released under LGPL license
+ */
+
+var argvs = require('minimist')( process.argv.slice(2) ),
+	mainExports = require('../index'),
+	console = require('../lib/console');
+
+
+switch (argvs._[0]) {
+	case 'build':
+		mainExports.build(argvs._[1], argvs['settings']);
+	break;
+
+	case 'doc':
+		mainExports.genDoc(argvs._[1], argvs['settings']);
+	break;
+
+	default:
+		console.errorExit('Please use "{{bowljs build}}" or "{{bowljs doc}}"');
+}
