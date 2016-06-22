@@ -35,3 +35,7 @@ API文档有助于团队成员了解各个模块的功能。通过Bowljs CLI的�
 如果配置文件不在目标目录下，也可以通过参数指定其路径：
 
     bowljs doc <目标目录> --settings <配置文件路径>
+
+## 作为依赖包使用
+
+Bowljs CLI也可以作为依赖包使用，具体说明见[此处](//github.com/heeroluo/bowljs-cli/wiki/%E4%BD%9C%E4%B8%BA%E4%BE%9D%E8%B5%96%E5%8C%85%E4%BD%BF%E7%94%A8)。

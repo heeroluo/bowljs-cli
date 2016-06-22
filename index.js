@@ -1,6 +1,6 @@
 /*!
  * Command line tools for Bowljs
- * Package exports (2016-06-20T09:51:47+0800)
+ * Package exports (2016-06-22T09:59:13+0800)
  * http://jraiser.org/ | Released under LGPL license
  */
 
@@ -119,7 +119,7 @@ var makeDocSettings = exports.makeDocSettings = function(settings, baseDir) {
  * 构建
  * @method build
  * @param {String} inputPath 目标路径
- * @param {Object|String} settingsPath 编译配置对象或编译配置文件路径
+ * @param {Object|String} settingsPath 构建配置对象或构建配置文件路径
  */
 exports.build = function(inputPath, settingsPath) {
 	var startTime = Date.now();
