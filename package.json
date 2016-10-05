@@ -1,6 +1,6 @@
 {
 	"name": "bowljs-cli",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Command line tools for Bowljs",
 	"author": {
 		"name": "Heero Luo",
@@ -26,12 +26,12 @@
 		"minifier"
 	],
 	"dependencies": {
-		"uglify-js": "~2.6.2",
+		"uglify-js": "~2.7.3",
 		"minimist": "~1.2.0",
 		"cli-color": "~1.1.0",
-		"ejs": "~2.4.2",
+		"ejs": "~2.5.2",
 		"ncp": "~2.0.0",
-		"html-minifier": "~2.1.5"
+		"html-minifier": "~3.1.0"
 	},
 	"license": "LGPL-3.0",
 	"engines": {
